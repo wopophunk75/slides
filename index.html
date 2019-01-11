@@ -62,12 +62,11 @@ Ein neues Slide beginnt immer mit <section> Dazwischen stehen die Inhalte. Sie w
 Danach wird das Slide mit </section> beendet.  
 -->
 			<div class="slides">
-				
 				<section>
 					<h1>Willkommen</h1>
 					<h3>Das ist meine Beispielspräsentation.</h3>
 					<p>
-						<small>Erstellt von Nele | <a href="https://eBildungslabor.de">eBildungslabor</small>
+						<small>Erstellt von Nele | <a href="https://eBildungslabor.de">eBildungslabor</a></small>
 					</p>
 						
 						<aside class="notes">
@@ -75,8 +74,67 @@ Danach wird das Slide mit </section> beendet.
 </aside>
 					
 				</section>
+<!-- Wenn Du zweimal <section> schreibst, kannst Du Slides 'nach unten' setzen. 
+-->
+				<section>
+					<section>
+						<h2>Slides nach rechts und nach unten</h2>
+						<p>Diese Funktion ist cool z.B. für Tutorials.</p>
 						
+					</section>
+				
+					<section>
+						<h2>Unteres Slide</h2>
+						<p>Jetzt kannst Du wieder nach oben gehen.</p>
+						
+					</section>
+				</section>
+<!-- Wenn Du zweimal <section id="fragments"> schreibst, kannst Du Text bzw. Inhalte Schritt für Schritt aufbauen. 
+-->
+	
+				<section>
+					<section id="fragments">
+						<h2>Schritt für Schritt</h2>
+						<p>Erster Punkt</p>
+						<p class="fragment">... noch ein Punkt ...</p>
+						<p class="fragment">... und der letzte Punkt</p>
+					</section>
+					</section>
 
+				<section>
+						<section id="fragments">
+						<h2>Viele Darstellungsmöglichkeiten</h2>
+				
+						<p class="fragment grow">vergrößern</p>
+						<p class="fragment shrink">verkleinern</p>
+						<p class="fragment fade-out">ausblenden</p>
+					
+						<p class="fragment fade-in-then-out">einblenden und ausblenden</p>
+						<p class="fragment fade-in-then-semi-out">einblenden und halb ausblenden</p>
+						<p>Mit Farben markieren:<span class="fragment highlight-red">rot</span> <span class="fragment highlight-blue">blau</span> <span class="fragment highlight-green">grün</span></p>
+					</section>
+				</section>				
+
+				
+				<section id="themes">
+					<h2>Layout</h2>
+					<p>
+		Das Design kannst Du im Kopf des Dokuments festlegen. Hier ist eine Vorschau.<br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+</section>
+				
 
 <!-- Wenn Du nicht nur <section> schreibst, um ein Slide zu beginnen, 
 sondern <section data background="..."> kannst Du Farbe, Bilder, Gifs oder Videos als Hintergrund setzen.
@@ -113,7 +171,7 @@ sondern <section data background="..."> kannst Du Farbe, Bilder, Gifs oder Video
 				<section>
 					<h1>JETZT bist Du dran!</h1>
 					<p>
-						- <a href="https://github.com/eBildungslabor/slides">Lies Dir die Schritt für Schritt Anleitung durch.</a> <br>
+						👉 <a href="https://github.com/eBildungslabor/slides">Lies Dir die Schritt für Schritt Anleitung durch.</a> <br>
 					</p>
 				</section>
 
@@ -138,7 +196,7 @@ Insbesondere kannst Du bei 'transition' festlegen, wie der Übergang zwischen Sl
 				progress: true,
 				history: true,
 				center: true,
-				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				transition: 'zoom', // none/fade/slide/convex/concave/zoom
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
