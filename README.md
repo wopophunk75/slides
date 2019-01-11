@@ -35,6 +35,8 @@ Im folgenden findest Du eine sehr einfache Anleitung mit den wichtigsten Schritt
 9. Die Schritte ab Punkt 4 für jede neue Präsentation wiederholen.
 10. Viel Spaß & Erfolg!
 
+Zum besseren Verständnis gibt es hier ein Screencast-Tutorial:
+
 ---
 
 ## Lizenz
