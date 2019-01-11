@@ -1,12 +1,27 @@
 <!doctype html>
+
+<!-- 
+Willkommen. In diesen Kommentaren erkläre ich Dir ein bißchen den Code, 
+so dass Du einfach eine eigene Präsentation gestalten kannst.
+Um den ganzen ersten Bereich musst Du Dich fast gar nicht kümmern. Nichts davon taucht als Inhalt in Deiner Präsentation auf.
+Stattdessen wird festgelegt, wie die Präsentation funktionieren wird.
+Was Du tun solltest:
+1. Für Suchmaschinen und Nutzende ist es hilfreich, wenn Du den Titel, Deinen Namen und eine Beschreibung angibst.
+(Der Titel wird ganz oben im Browser sichtbar sein, damit Nutzende wissen, wo im Internet sie sich gerade befinden.)
+2. Und dann solltest Du Dir noch diese Zeile ansehen:
+<link rel="stylesheet" href="css/theme/black.css" id="theme">
+Anstelle von black, kannst Du auch white, simple, blood, night, moon ... setzen. Beispiele sind in der Präsentation verlinkt. 
+Danach kannst Du runterscrollen bis zum nächsten ausführlichen Kommentar.  
+-->
+
 <html lang="de">
 
 	<head>
 		<meta charset="utf-8">
 
-		<title>Digitale Transformation und gewerkschaftliche Bildungsarbeit</title>
+		<title>Meine Beispielspräsentation</title>
 
-		<meta name="description" content="Vortrag bei der A&F Teamendentagung von ver.di im Januar 2019">
+		<meta name="description" content="Erstellt mit RevealJS und gedacht zum Nachbasteln">
 		<meta name="author" content="Nele Hirsch">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,7 +30,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -38,248 +53,133 @@
 
 		<div class="reveal">
 
-<!-- Any section element inside of this container is displayed as a slide -->
-<div class="slides">
-			
-<section data-background="https://media.giphy.com/media/D10Ptrt7CutlC/giphy.gif">
-						<h2>Digitale Transformation & gewerkschaftliche Bildungsarbeit</h2>
+		
+			<!-- 
+Weiter geht es mit den Erklärungen!
+Ab hier wird es dann spannend! 
+Denn ab hier gestaltest Du Deine Slides!
+Ein neues Slide beginnt immer mit <section> Dazwischen stehen die Inhalte. Sie werden mit HTML geschrieben. 
+Danach wird das Slide mit </section> beendet.  
+-->
+			<div class="slides">
+				<section>
+					<h1>Willkommen</h1>
+					<h3>Das ist meine Beispielspräsentation.</h3>
+					<p>
+						<small>Erstellt von Nele | <a href="https://eBildungslabor.de">eBildungslabor</small>
+					</p>
 						
-</p>
-				</section>
-	
-	
-				<section data-background="https://media.giphy.com/media/3dpG9uWjIOgQwIcLN3/giphy.gif">
-					<h2>Nele</h2>
-					<hr>
+						<aside class="notes">
+	Hier steht Text, der für die vortragenden Person wichtig ist, aber nicht direkt in der Präsentation nicht auftaucht.
+</aside>
 					
-					<h3>@eBildungslabor</h3>
-                                        <h3>#zeitgemäßeBildung</h3>
-					<h3>#OERde</h3>
-</section>
-
-			<section data-background="https://media.giphy.com/media/l2Je3ktsieOfOGa1G/giphy.gif">
-					<h2>Drei Thesen vorab ...</h2>
-				
-</section>
-
-			
-			
-			
-			
-<section data-background="images/board.jpg">
-
-	<h3><blockquote>"Digitalisierung ist von uns Menschen gemacht und deshalb gestaltbar."</blockquote></h3>
-
-				
-			</section>
-	
-	<section data-background="images/board.jpg">
-
-	<h3><blockquote>"Gute Bildung muss allen Menschen ermöglichen, sich aktiv in die Gesellschaft einzubringen."</blockquote></h3>
-				
-			</section>
-	
-	<section data-background="images/board.jpg">
-
-	<h3><blockquote>"Lernen funktioniert nicht ohne Austausch und Kollaboration."</blockquote></h3>
-
-				
-			</section>
-	
-	
-			<section data-background="https://media.giphy.com/media/3oz8xyBP22S5b6gmsw/giphy.gif">
+				</section>
+<!-- Wenn Du zweimal <section> schreibst, kannst Du Slides 'nach unten' setzen. 
+-->
+				<section>
+					<section>
+						<h2>Slides nach rechts und nach unten</h2>
+						<p>Diese Funktion ist cool z.B. für Tutorials.
 						
-						<h2>... und jetzt zu den heutigen drei Fragen:</h2>
-				
 					</section>
-		<section data-background="images/navigation.jpg">
-			
-		<h3>1. Wie können wir die digitale Transformation als Chance für eine bessere Bildungsarbeit aufgreifen?</h3>
 				
-		</section>
-			
-			<section data-background="images/risk.jpg" data-transition="slide">
-			
-		<h3>2. Wie können wir mit den Risiken der digitalen Transformation im Rahmen der Bildungsarbeit umgehen?</h3>
+					<section>
+						<h2>Unteres Slide</h2>
+						<p>Jetzt kannst Du wieder nach oben gehen.</p>
+						
+					</section>
+				</section>
+<!-- Wenn Du zweimal <section id=fragments"> schreibst, kannst Du Text bzw. Inhalte Schritt für Schritt aufbauen. 
+-->
+	
+				<section>
+					<section id="fragments">
+						<h2>Schritt für Schritt</h2>
+						<p>Erster Punkt</p>
+						<p class="fragment">... noch ein Punkt ...</p>
+						<p class="fragment">... und der letzte Punkt</p>
+					</section>
+					</section>
+
+				<section>
+						<section id="fragments">
+						<h2>Viele Darstellungsmöglichkeiten</h2>
+						<p>Teste es aus:</p>
+						<p class="fragment grow">vergrößern</p>
+						<p class="fragment shrink">verkleinern</p>
+						<p class="fragment fade-out">ausblenden</p>
+					
+						<p class="fragment fade-in-then-out">einblenden und ausblenden</p>
+						<p class="fragment fade-in-then-semi-out">einblenden und halb ausblenden</p>
+						<p>Mit Farben markieren:<span class="fragment highlight-red">rot</span> <span class="fragment highlight-blue">blau</span> <span class="fragment highlight-green">grün</span></p>
+					</section>
+				</section				
+
+				<section id="themes">
+					<h2>Layout & Design</h2>
+					<p>
+						Du kannst aus verschiedenenm Layouts auswählen. Das Layout wird im Kopf des Dokuments festgelegt: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+
+<!-- Wenn Du nicht nur <section> schreibst, um ein Slide zu beginnen, 
+sondern <section data background="..."> kannst Du Farbe, Bilder, Gifs oder Videos als Hintergrund setzen.
+-->
 				
-		</section>
+					<section data-background="#2100ff">
+						<h2>Slides mit farbigem Hintergrund</h2>
+						
+					</section>
+					<section data-background="https://www.oercamp.de/wp-content/uploads/2017/12/OERde17-OERCamp-Tilman-Vogler-Tag-2-053_web.jpg">
+						<h2>Slides mit Bild als Hintergrund</h2>
+						
+					</section>
+					
 			
-			<section data-background="images/create.jpg">
-			
-		<h3>3. Wie können wir die digitale Transformation im Rahmen von Bildungsarbeit mit gestalten?</h3>
+					<section data-background="https://media.giphy.com/media/l2Je3ktsieOfOGa1G/giphy.gif">
+						<h2>Slides mit Gif als Hintergrund</h2>
+					</section>
 				
-		</section>
-			
-	
-
-<section data-background="https://media.giphy.com/media/D10Ptrt7CutlC/giphy.gif">
-<h2>Los geht es: Digitale Transformation als Chance!</h2>
-</section> 
-
-<section data-background="images/entwederoder.jpg">
-
-<section id="fragments">
-
-<h3>Digital <span class="fragment fade-in">und</span> Analog
-<span class="fragment fade-in">
-<br>= Zusätzliche Möglichkeit zum Lernen statt Reduzierung!
-</span>
-	</h3>
-</section>
-</section>
-
-			<section data-background="images/bildungsraum.jpg">
-
-<section id="fragments">
-
-	<h3>Virtueller Raum als vielfältiger Bildungsraum</h3>
-	<ul>
-		<li class="fragment fade in">Informationen</li>
-		<li class="fragment fade in">Tools</li>
-		<li class="fragment fade in">Akteure</li>
-		<li class="fragment fade in">Materialien</li>
-	</ul>
+				
+				
+				<section>
+					<h2>Überblick oder kurze Pause?</h2>
+					
+     
+					<p>Drücke auf Esc oder B. Und mit Klick auf S bekommst Du eine Speakers-Ansicht</p>
+					
+					<aside class="notes">
+	Hier steht Text, der für die vortragenden Person wichtig ist, aber nicht direkt in der Präsentation nicht auftaucht.
+</aside>
 				</section>
-			</section>
-			
-			
-			<section data-background="images/netzprinzipien.jpg">
 
-<section id="fragments">
-
-	<h3>Netzprinzipien als Grundlage für erfolgreiches Lernen</h3>
-	<ul>
-		<li class="fragment fade in">Kollaboration</li>
-		<li class="fragment fade in">Freiwilligkeit</li>
-		<li class="fragment fade in">aktive Rolle der Lernenden</li>
-		<li class="fragment fade in">Flexibilität</li>
-	</ul>
+			
+				<section>
+					<h1>JETZT bist Du dran!</h1>
+					<p>
+						- <a href="https://github.com/eBildungslabor/slides">Lies Dir die Schritt für Schritt Anleitung durch.</a> <br>
+					</p>
 				</section>
-			</section>
+
+				
+<!-- 
+Jeztzt sind wir fertig mit den Slides.
+Abschließend folgen noch einige Einstellungen. 
+Insbesondere kannst Du bei 'transition' festlegen, wie der Übergang zwischen Slides gestaltet sein soll.   
+-->
 	
-			<section data-background="https://media.giphy.com/media/F9hQLAVhWnL56/giphy.gif">
-
-<h2>Fazit I</h2>
-<h3>Die Digitalisierung kann für ver.di ein Katalysator sein für bessere Lehr- und Lernprozesse!</h3>
-			</section> 
-			
-			
-	<section data-background="https://media.giphy.com/media/D10Ptrt7CutlC/giphy.gif">
-
-<h2>Nächste Herausforderung: Umgang mit Risiken</h2>
-</section> 
-			
-	
-			<section data-background="images/change.jpg">
-
-<section id="fragments">
-
-	<h3 class="fragment highlight-red">Das Internet geht nicht mehr weg!</h3>
-	
-	<h3 class="fragment fade-in">Aber es muss nicht so bleiben, wie es ist!<h3>
-</section>
-</section>
-				    
-				    
-				    <section data-background="images/falsch.jpg">
-
-<section id="fragments">
-
-	<h3>Was läuft falsch?</h3>
-	<ul>
-		       
-		      
-
-
-		<li class="fragment fade in"> Konzerndominanz: Daten als Währung</li>
-		<li class="fragment fade in">(Staatliche) Überwachung: Handlungen sind nachverfolgbar</li>
-		<li class="fragment fade in">Bildungsprozesse: werden 'optimiert'</li>
-		
-	</ul>
-				</section>
-			</section>
-
-					    
-					     <section data-background="images/richtig.jpg">
-
-<section id="fragments">
-
-	<h3>👉 Risikominimierung durch digitale Souveränität:</h3>
-	<ul>
-		       
-		      
-
-
-		<li class="fragment fade in">Risiken aufzeigen und transparent machen.</li>
-		<li class="fragment fade in">Freiräume im virtuellen Raum nutzen.</li>
-		<li class="fragment fade in">Hoheit über die eigenen Inhalte behalten.</li>
-					    <li class="fragment fade in">Gute Bildung dank Open Education umsetzen.</li>
-		
-	</ul>
-				</section>
-			</section>
-	
-<section data-background="https://media.giphy.com/media/5YtjeSjBIr00v4X2Sr/giphy.gif" data-transition="none"">
-
-<h2>Fazit II</h2>
-<h3>Digitale Souveränität als Herausforderung von Bildungsarbeit angesichts der digitalen Transformation.</h3>
-			</section> 
-			
-			
-			<section data-background="https://media.giphy.com/media/D10Ptrt7CutlC/giphy.gif" data-transition="none">
-
-<h2>Letzte Herausforderung: Digitale Transformation gestalten!</h2>
-</section> 
-					    
-	
-			<section>
-
-<section id="fragments">
-
-	<h3>Gewerkschaftliche Bildungsherausforderung</h3>
-	
-		       
-		      
-
-
-		<h3 class="fragment fade in">👉 Interessenvertretung von Beschäftigten - auch mit digitalen Tools!
-</h3>
-		
-				</section>
-			</section>
-			
-			<section id="fragments">
-
-	<h3>Gesellschaftliche Bildungsherausforderung:</h3>
-	
-		       
-		      
-		<h3 class="fragment fade in">👉 Gute Bildung für alle & Bildung als öffentliches Gut. </h3>
-		
-				</section>
-			</section>
-		
-		
-		
-		
-<section data-background="https://media.giphy.com/media/2CDj6SXgvKB0I/giphy.gif">
-
-<h2>Fazit III</h2>
-<h3>Wenn Digitalisierung in der Bildung das Lernen und Lehren besser machen soll, ist dazu auch gewerkschaftliches Engagement erforderlich.</h3>
-			</section> 		
-		
- <section data-background="https://media.giphy.com/media/D10Ptrt7CutlC/giphy.gif">
-
-	 <h2>Danke!</h2>
-<h3>Ich freue mich auf die Diskussion!</h3>
-
-			</section> 	
-		
-		
-		
-		
-			
-
 			</div>
 
 		</div>
@@ -294,7 +194,7 @@
 				progress: true,
 				history: true,
 				center: true,
-				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				transition: 'zoom', // none/fade/slide/convex/concave/zoom
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -310,5 +210,3 @@
 
 	</body>
 </html>
-
-			
