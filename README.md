@@ -37,7 +37,7 @@ Mit den folgenden Schritten gestaltest Du Dir aus [dieser Beispiels-Präsentatio
 9. Die Schritte ab Punkt 4 für jede neue Präsentation wiederholen.
 10. Viel Spaß & Erfolg!
 
-Zum besseren Verständnis gibt es hier ein Screencast-Tutorial:
+Zum besseren Verständnis gibt es [bei Youtube ein Screencast-Tutorial von mir](https://www.youtube.com/watch?v=cI6m5I2vn7w)
 
 ---
 
