@@ -1,8 +1,38 @@
-# reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+# ✨ Willkommen ✨
 
-A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
+* Du möchtest kostenfrei schicke Präsentationen, Online-Reportagen oder Storytellings gestalten und einfach veröffentlichen? 
+* Du bist daran interessiert, dass Deine Inhalte von allen Interessierten möglichst einfach weiter genutzt und geteilt werden können? 
+* Du möchtest nachhaltig arbeiten und nicht auf einen spezifischen Anbieter angewiesen sein? 
 
-reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
+Dann bist Du bei der Open Source Software **RevealJS** ganz genau richtig. 
+
+👇 Du solltest unbedingt weiter lesen! 👇
+
+## Was kann ich mit RevealJS machen?
+
+**RevealJS** bietet Dir für Deine Inhalte unter anderem diese Möglichkeiten:
+* Freie Gestaltung von Präsentationen - so wie Du das möchtest.
+* keine Werbung, keine Kosten - alles Open Source.
+* fancy Darstellung mit Bildern, Gifs oder Videos im Hintergrund, coolen Übergängen und vieles mehr.
+* unterstützenden Möglichkeiten wie Ausblenden bei Pausen, Übersichtsseiten, Exportfunktion als pdf und vieles mehr.
+* vielfältige Nutzungsmöglichkeiten z.B. auch für Online-Reportagen oder Storytellings.
+
+RevealJS ist entwickelt von [Hakim El Hattab](https://hakim.se/) und zahlreichen weiteren Unterstützerinnen und Unterstützern. Veröffentlicht ist die Software [hier bei GitHub](https://github.com/hakimel/reveal.js) unter der Open Source MIT-Lizenz. Offene Weiternutzung und auch Mitarbeit am Code ist auf diese Weise möglich und erwünscht. **Danke ❤️** 
+
+## Wie nutze ich RevealJS?
+
+Im folgenden findest Du eine sehr einfache Anleitung mit den wichtigsten Schritten. Sehr viel ausführlicher und umfassender (& insbesondere für technisch geübte Menschen interessant) findest Du [im ursprünglichen GitHub Repositorium](https://github.com/hakimel/reveal.js) eine Anleitung.
+
+
+## Wie erstelle ich Schritt für Schritt meine erste Präsentation?
+
+
+
+
+
+
+
+
 
 
 ## Table of contents
@@ -1308,8 +1338,10 @@ If you want to include math inside of a presentation written in Markdown you nee
 `$$ J(\theta_0,\theta_1) = \sum_{i=0} $$`
 ```
 
-## License
+## Lizenz
 
-MIT licensed
+Die Software steht unter der Lizenz MIT
 
 Copyright (C) 2018 Hakim El Hattab, http://hakim.se
+
+Nicht-Software Inhalte stammen von Nele aus dem [eBildungslabor](https://www.ebildungslabor.de). Sie sind freigegeben unter Public Domain (= nutze sie einfach weiter, Du musst keinen Hinweis angeben, aber wenn Du magst und sie für Dich hilfreich sind, dann freue ich mich natürlich dennoch über einen Link zu meiner Seite)
