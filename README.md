@@ -24,6 +24,8 @@ RevealJS ist entwickelt von [Hakim El Hattab](https://hakim.se/) und zahlreichen
 
 Im folgenden findest Du eine sehr einfache Anleitung mit den wichtigsten Schritten. Eine sehr viel ausführlichere und umfassendere (& insbesondere für technisch geübte Menschen interessante) Anleitung findest Du englischsprachig [im ursprünglichen GitHub Repositorium](https://github.com/hakimel/reveal.js).
 
+Mit den folgenden Schritten gestaltest Du Dir aus [dieser Beispiels-Präsentation](https://ebildungslabor.github.io/slides/#/) Deine eigene Präsentation.
+
 1. Einen kostenfreien Account bei https://github.com/ anlegen und einloggen.
 2. Zur Seite https://github.com/eBildungslabor/slides gehen und oben rechts auf 'fork' klicken. Jetzt hast Du Dir den meinen Ordner 'slides' in Deinen Account kopiert.
 3. Auf Settings klicken, runterscrollen und GitHubPages aktivieren. Einige Minuten warten. Dann dem angezeigten Link (mit GitHub.io) folgen. Du siehst die von mir erstellte Beispielspräsentation.
