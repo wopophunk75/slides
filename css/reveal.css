@@ -1589,3 +1589,13 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/***************
+*Custom 
+****************/
+
+html.dimbg .slide-background {
+	opacity: 0.2 !important;
+}
+
+
