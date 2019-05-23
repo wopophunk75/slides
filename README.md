@@ -41,10 +41,16 @@ Zum besseren Verständnis gibt es [bei Youtube ein Screencast-Tutorial von mir](
 
 ---
 
-## Lizenz
+## Lizenz der Software
 
 Die Software steht unter der Lizenz MIT
 
 Copyright (C) 2018 Hakim El Hattab, http://hakim.se
 
-Nicht-Software Inhalte stammen von Nele aus dem [eBildungslabor](https://www.ebildungslabor.de). Sie sind freigegeben unter Public Domain (= nutze sie einfach weiter, Du musst keinen Hinweis angeben, aber wenn Du magst und sie für Dich hilfreich sind, dann freue ich mich natürlich dennoch über einen Link zu meiner Seite)
+## Lizenz der Präsentationen
+
+In diesem Repositorium veröffentliche ich von mir gestaltete Präsentationen. Sie stammen somit aus dem [eBildungslabor](https://www.ebildungslabor.de). Soweit nicht anders angegeben sind sie freigegeben unter Public Domain (= nutze sie einfach weiter, Du musst keinen Hinweis angeben, aber wenn Du magst und sie für Dich hilfreich sind, dann freue ich mich natürlich dennoch über einen Link zu meiner Seite).
+
+Bitte beachte die folgenden Lizenzhinweise für nachgenutzte Inhalte in Präsentationen, die von der Public Domain Freigabe ausgenommen sind:
+
+* Das Video unter /videos/smartphone.mp4 'Was steckt in einem Smartphone alles drin?' stammt von Handysektor unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Veröffentlicht bei [Youtube](https://www.youtube.com/watch?v=EolKnvFmMeM)
