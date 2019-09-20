@@ -1,6 +1,4 @@
-# Credits und Lizenzhinweise der Präsentationen
-
-## OERinBerlin
+# Credits und Lizenzhinweise der Präsentationen OERinBerlin
 
 **Die folgenden Inhalte werden in der Präsentation verwendet**
 
