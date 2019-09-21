@@ -1,4 +1,7 @@
-# Credits und Lizenzhinweise der Präsentationen OERinBerlin
+# Credits und Lizenzhinweise der Präsentation 'OER und zeitgemäße Bildung'
+
+* Link zur Präsentation: https://ebildungslabor.github.io/slides/oerinberlin.html
+* Link zum Quelltext: https://github.com/eBildungslabor/slides/oerinberlin.html
 
 Die meisten der verwendeten Medieninhalte sind Einbettungen von Websites, von der Plattform Giphy oder von Youtube. 
 
