@@ -13,7 +13,7 @@ Die meisten der verwendeten Medieninhalte sind Einbettungen von Websites, von de
 
 ### 'Übersetzung' der 4K:
 
-Die Grafik „Was die Leute für 4K halten – und was es wirklich ist“ steht unter der Lizenz CC BY 4.0. Sie stammt von Jöran Muuß-Merholz mit Zeichnungen von Hannah Birr, Agentur J&K auf Basis einer Folie von Markus Bölling. Die Grafiken stehen auch als Foliensatz (mit den gleichen Lizenzbedingungen) zur Verfügung. [Nähere Informationen und Blogbeitrag](https://www.joeran.de/die-4k-skills-was-meint-kreativitaet-kritisches-denken-kollaboration-kommunikation/)
+Die Grafik „Was die Leute für 4K halten – und was es wirklich ist“ steht unter der [Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). Sie stammt von Jöran Muuß-Merholz mit Zeichnungen von Hannah Birr, Agentur J&K auf Basis einer Folie von Markus Bölling. Die Grafiken stehen auch als Foliensatz (mit den gleichen Lizenzbedingungen) zur Verfügung. [Nähere Informationen und Blogbeitrag](https://www.joeran.de/die-4k-skills-was-meint-kreativitaet-kritisches-denken-kollaboration-kommunikation/)
 
 ### Distracted Boyfriend Meme
 
